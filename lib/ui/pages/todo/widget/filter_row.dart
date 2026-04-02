@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FilterRow extends StatelessWidget {
-  FilterRow({super.key});
+  const FilterRow({super.key});
 
   @override
   Widget build(BuildContext context) {

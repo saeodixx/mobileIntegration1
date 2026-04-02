@@ -1,3 +1,4 @@
+import 'package:example/ui/pages/todo/bottom_navigation/bottom_navigation.dart';
 import 'package:example/ui/pages/todo/widget/filter_row.dart';
 import 'package:example/ui/pages/todo/widget/progress_card.dart';
 import 'package:example/ui/pages/todo/widget/title_content.dart';
@@ -28,6 +29,9 @@ class TodoPage extends StatelessWidget {
 
               //할 일 리스트
               TodoList(),
+
+              //Costom Bottom Navigation Bar
+              BottomNavigation(),
             ],
           ),
         ),
