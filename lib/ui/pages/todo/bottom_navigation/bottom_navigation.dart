@@ -13,7 +13,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
   Widget build(BuildContext context) {
     return Container(
       height: 75,
-      padding: .all(10),
+      padding: .all(5),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(30),
@@ -32,7 +32,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   (text: '홈', icon: Icons.home),
                   (text: '캘린더', icon: Icons.calendar_month),
                   (text: '통계', icon: Icons.bar_chart),
-                  (text: '할 일', icon: Icons.person),
+                  (text: '프로필', icon: Icons.person),
                 ]
                 .map(
                   (e) => Expanded(
